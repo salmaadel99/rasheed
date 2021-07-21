@@ -253,7 +253,7 @@ nav .social-icon-desctop i:hover {
 /* ------- start projects sec ------------ */
 
 .projects .carousel-item {
-  /* height: 400px; */
+  height: 400px;
   background: no-repeat scroll center scroll;
   background-repeat: no-repeat;
   position: relative;
@@ -395,7 +395,7 @@ nav .social-icon-desctop i:hover {
     width: 35%;
   }
   .projects .carousel-item .carousel-caption p {
-    width: 300px;
+    width: 280px;
     font-size: 14px;
   }
   .mail-contact {
@@ -476,6 +476,7 @@ nav .social-icon-desctop i:hover {
   .mail-contact .input-group {
     margin-top: 10px;
   }
+
 }
 
 @media (min-width:320px) and (max-width: 479px) {
@@ -545,6 +546,9 @@ nav .social-icon-desctop i:hover {
   }
   .mail-contact .input-group {
     margin-top: 5px;
+  }
+  .projects .carousel-item {
+    height: 200px;
   }
   .quality .certificates {
     display: block;
